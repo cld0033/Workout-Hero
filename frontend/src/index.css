@@ -89,6 +89,10 @@ form button {
   border-radius: 4px;
   cursor: pointer;
 }
+
+form button:hover{
+  background-color: darkolivegreen;
+}
 div.error {
   padding: 10px;
   background: #ffefef;
@@ -98,5 +102,9 @@ div.error {
   margin: 20px 0;
 }
 input.error {
-  border: 1px solid var(--error);
+  border: 2px solid var(--error);
+}
+
+.material-symbols-outlined:hover{
+  background-color: lightblue;
 }
