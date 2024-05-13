@@ -1,0 +1,3 @@
+mongoose is an odm "object data modeling" wraps mongodb with an extra layer that allows us
+to read and write data.
+also allows us to connect to the database
