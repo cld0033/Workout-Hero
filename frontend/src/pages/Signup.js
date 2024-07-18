@@ -4,7 +4,7 @@ const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     console.log(email, password);
